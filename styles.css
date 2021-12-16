@@ -6,7 +6,7 @@ body {
 #container-1 {
     background-color: #1f2937;
     /* height: max-content; */
-    height: 500px;
+    height: max-content;
     /* margin: 0 10% 0 10%; */
 }
 
@@ -15,12 +15,14 @@ body {
 }
 
 .menu-item {
-    flex: 1;
-    padding: 0 30px 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+    padding: 0 20px 0 20px;
 }
 
 .top-bar {
-    background-color: #1f2937;
     height: 100px;
     display: flex;
     align-items: center;
@@ -33,14 +35,46 @@ body {
 }
 
 .body-1 {
-    background-color: #1f2937;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    height: 200px;
+    /* justify-content: center; */
 }
 
-.body-1-item {
+.body-1 .right {
+    background-color: rgb(75, 72, 69);
+    height: 300px;
     flex: 1;
+}
+
+.body-1-item .left {
+    text-align: center;
+    flex-basis: 45%;
+    line-height: 3em;
+    flex: 1;
+}
+
+#container-2 {
+    background-color: white;
+    color: black;
+}
+
+.body-2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3% 0 3% 0;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.body-2-item {
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+
+#container-3 {
+    background-color: #e5e7eb;
+    height: 500px;
 }
