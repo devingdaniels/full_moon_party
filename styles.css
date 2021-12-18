@@ -39,11 +39,12 @@
       .container-1-content {
           background-color: lightskyblue;
           display: flex;
+          justify-content: center;
       }
       
       .content-item {}
       
       .content-item.photo {
           height: 400px;
-          width: 400px;
+          width: 600px;
       }
