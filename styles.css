@@ -22,7 +22,7 @@
       }
       
       .menu {
-          background-color: rgb(145, 224, 224);
+          padding-top: 30px;
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -30,4 +30,20 @@
       
       .logo {
           margin-right: 300px;
+      }
+      
+      .item {
+          flex: 1;
+      }
+      
+      .container-1-content {
+          background-color: lightskyblue;
+          display: flex;
+      }
+      
+      .content-item {}
+      
+      .content-item.photo {
+          height: 400px;
+          width: 400px;
       }
