@@ -13,10 +13,11 @@
       #container-1 {
           background-color: #1f2937;
           color: white;
+          padding: 30px 10px 30px 10px;
       }
       
       .container-1-wrapper1 {
-          padding: 20px 0 20px 0;
+          padding: 30px 0 30px 0;
           display: flex;
           justify-content: center;
           align-items: baseline;
@@ -27,33 +28,27 @@
           font-size: 40px;
       }
       
-      .item {
-          flex: 1;
-      }
-      
       .container-1-wrapper2 {
           display: flex;
-          justify-content: center;
+          justify-content: space-evenly;
       }
       
-      .content-item-1 {}
-      
-      .content-item {}
-      
       .content-item.heading {
-          margin: 5% 15% 5% 15%;
+          margin: 5%;
           text-align: center;
       }
       
       .content-item.subheading {
-          width: 30%;
+          width: 50%;
           margin: auto;
           text-align: center;
       }
       
-      .content-item.photo {
-          height: max-content;
-          width: 600px;
+      .content-item-2.photo {
+          height: 200px;
+          width: 200px;
+          border-style: solid;
+          border-color: red;
       }
       /* ------------------------- STYLES FOR CONTAINER 2 -------------------------*/
       
@@ -92,7 +87,7 @@
       /* ------------------------- STYLES FOR CONTAINER 3 -------------------------*/
       
       #container-3 {
-          background-color: #e5e5eb;
+          background-color: #1e1e41;
           display: flex;
           flex-direction: column;
       }
@@ -107,4 +102,5 @@
       .author {
           position: relative;
           left: 70%;
+          width: 10%;
       }
