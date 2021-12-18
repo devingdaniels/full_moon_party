@@ -8,8 +8,9 @@
       a {
           text-decoration: none;
       }
+      /* ------------------------- STYLES FOR CONTAINER 2 -------------------------*/
       
-      .container-1 {
+      #container-1 {
           background-color: #1f2937;
       }
       
@@ -19,8 +20,6 @@
           justify-content: center;
           gap: 40%;
       }
-      
-      .wrapper-item {}
       
       .menu {
           padding: 3% 0 3% 0;
@@ -61,4 +60,9 @@
       .content-item.photo {
           height: max-content;
           width: 600px;
+      }
+      /* ------------------------- STYLES FOR CONTAINER 2 -------------------------*/
+      
+      #container-2 {
+          background-color: white;
       }
