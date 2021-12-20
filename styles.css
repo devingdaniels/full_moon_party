@@ -6,7 +6,25 @@
       
       a {
           text-decoration: none;
-          color: white;
+          color: rgb(255, 255, 255);
+          padding: 0 15px 0 15px;
+          color: #c5c5c7;
+      }
+      
+      p {}
+      
+      button {
+          margin: 20px 0 20px 0;
+      }
+      
+      h1 {
+          font-size: 48px;
+          font-weight: 900;
+          padding-bottom: 20px;
+      }
+      
+      h2 {
+          margin: 25px auto 40px auto;
       }
       /* ------------------------- STYLES FOR CONTAINER 2 -------------------------*/
       
@@ -17,15 +35,11 @@
       }
       
       .container-1-wrapper1 {
-          padding: 30px 0 30px 0;
           display: flex;
-          justify-content: center;
-          align-items: baseline;
-      }
-      
-      .logo {
-          margin-right: 300px;
-          font-size: 40px;
+          margin-bottom: 50px;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 32%;
       }
       
       .container-1-wrapper2 {
@@ -33,74 +47,65 @@
           justify-content: space-evenly;
       }
       
-      .content-item.heading {
-          margin: 5%;
-          text-align: center;
-      }
-      
-      .content-item.subheading {
-          width: 50%;
-          margin: auto;
-          text-align: center;
+      .cont1-wrap2-item.heading {
+          width: 40%;
       }
       
       .content-item-2.photo {
           height: 200px;
-          width: 200px;
-          border-style: solid;
-          border-color: red;
+          width: 400px;
+          /* border-style: solid;
+          border-color: red; */
       }
       /* ------------------------- STYLES FOR CONTAINER 2 -------------------------*/
       
       #container-2 {
-          padding-top: 50px;
-          background-color: white;
+          padding: 30px 10px 30px 10px;
       }
       
       .container-2-wrapper1 {
           color: black;
           text-align: center;
-          padding-bottom: 50px;
-      }
-      
-      .container-2-item {
-          height: 150px;
-          width: 150px;
-          border-style: solid;
-          border-color: rgb(87, 87, 240);
-          background-color: rgb(162, 240, 162);
       }
       
       .container-2-wrapper2 {
           display: flex;
-          background-color: rgb(255, 255, 255);
-          justify-content: space-around;
+          justify-content: center;
+          gap: 5%;
+      }
+      
+      .container-2-item {
+          height: 200px;
+          width: 200px;
+          border-style: solid;
+          border-color: rgb(87, 87, 240);
+          border-radius: 25px;
+          padding: 10px;
       }
       
       .container-2-wrapper2 p {
           display: flex;
-          flex-direction: row;
-          width: 150px;
-          justify-content: center;
+          width: 200px;
           text-align: center;
+          margin-top: 20px;
       }
       /* ------------------------- STYLES FOR CONTAINER 3 -------------------------*/
       
       #container-3 {
-          background-color: #1e1e41;
           display: flex;
-          flex-direction: column;
+          background-color: #e5e7eb;
       }
       
       .container-3-wrapper1 {
-          border-style: ridge;
-          border-color: blue;
+          padding: 100px 0 100px 0;
           width: 60%;
           margin: auto;
+          font-family: Arial, Helvetica, sans-serif;
       }
       
       .author {
           position: relative;
-          left: 70%;
-          width: 10%;
+          left: 85%;
+          width: 40%;
+          padding-top: 20px;
       }
