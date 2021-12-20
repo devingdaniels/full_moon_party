@@ -7,7 +7,7 @@
       a {
           text-decoration: none;
           color: rgb(255, 255, 255);
-          padding: 0 15px 0 15px;
+          padding: 0 25px 0 25px;
           color: #c5c5c7;
       }
       /* ------------------------- STYLES FOR CONTAINER 1 -------------------------*/
@@ -50,8 +50,8 @@
       }
       
       .content-item-2.photo {
-          height: 200px;
-          width: 400px;
+          height: 250px;
+          width: 500px;
           /* border-style: solid;
           border-color: red; */
       }
@@ -62,11 +62,6 @@
       }
       
       .container-2-wrapper1 {
-          color: black;
-          text-align: center;
-      }
-      
-      .container-2-wrapper2 {
           display: flex;
           justify-content: center;
           gap: 5%;
@@ -78,18 +73,16 @@
           border-style: solid;
           border-color: rgb(87, 87, 240);
           border-radius: 25px;
-          padding: 10px;
       }
       
-      .container-2-wrapper2 p {
-          display: flex;
-          width: 200px;
+      .features-subheading {
           text-align: center;
-          margin-top: 20px;
       }
       
       .custom-h2 {
           margin: 25px auto 40px auto;
+          color: black;
+          text-align: center;
       }
       /* ------------------------- STYLES FOR CONTAINER 3 -------------------------*/
       
